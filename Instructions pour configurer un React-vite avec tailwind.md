@@ -76,6 +76,12 @@
     @tailwind base;
     @tailwind components;
     @tailwind utilities;
+
+    @layer base {
+      html {
+        font-family: "Montserrat", "sans-serif";
+      }
+    }
     ```
 
 ### Étape 14 : Configurer le formatage dans VSCode
